@@ -140,6 +140,7 @@ resultsReset.addEventListener("click", function() {
         return; 
     }
     if (document.querySelector(".checked")) {
+        let checked = document.querySelector(".checked"); 
         checked.classList.remove("checked"); 
     }
     inputDollar.value = ""; 
