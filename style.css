@@ -199,6 +199,9 @@ input:invalid {
         margin-bottom: 3.8rem; 
         border-radius: .9375rem; 
     }
+    .tip__container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .results__container, .data__container {
         width: 100%; 
     }
