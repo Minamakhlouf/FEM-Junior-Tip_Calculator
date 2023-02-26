@@ -14,10 +14,10 @@
     <div class="logo"><img src="images/logo.svg" alt=""></div>
     <section class="calculator">
       <div class="data__container">
-        <label for="input-dollar" class="input__label" pattern="">Bill</label>
+        <label for="input-dollar" class="input__label">Bill</label>
         <div class="input__container">
           <img class="input__img"  src="images/icon-dollar.svg" alt="">
-          <input type="number" id="input-dollar" placeholder="0" pattern="[0-9]{1,6}|[0-9]{1,6}\.[0-9]{1,2}" max="100000" min="1">
+          <input type="number" id="input-dollar" placeholder="0" max="100000" min="1">
           <div class="input__error">Can't be blank or 0</div>
         </div>
         <label for="tip" class="input__label">Select Tip %</label>
@@ -27,7 +27,7 @@
           <div class="tip__checkbox tip__child" data-tip="1.15">15%</div>
           <div class="tip__checkbox tip__child" data-tip="1.25">25%</div>
           <div class="tip__checkbox tip__child" data-tip="1.5">50%</div>
-          <input class="tip__child input__tip" type="number" placeholder="Custom" min="0" max="99">
+          <input class="tip__child input__tip" id="tip" type="number" placeholder="Custom" min="0" max="99">
           <div class="input__error"></div>
         </div>
         <label class="input__label" for="people">Number of People</label>
